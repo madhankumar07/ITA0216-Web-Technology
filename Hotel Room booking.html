@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>online Hotel Ticket</title>
+    </head>
+    <style>
+        .head{
+            text-align: center;
+            background-color: aqua;
+        }
+        body{
+            background-color: azure;
+        }
+        .content{
+            text-align: left;
+            background-color: rgb(74, 237, 104);
+        }
+    </style>
+    <body>
+        <div class="body">
+            <div class="head">
+                <h1>Online Hotel Room Booking</h1>
+        </div>
+        <div class="content">
+            <h2>search for available Room</h2>
+            <form>
+                <lable for="checkin">check in date</lable>
+                <input type ="date" id="checkin"name="checkin">
+
+                <lable for="checkout">check out date</lable>
+                <input type="date"id="checkout"name="checkout">
+
+                <lable for="customer">No of customer</lable>
+                <input type-="number" id="customer" name="customer" min="1"><br>
+                <br>
+                <input type ="submit" value="search">
+            </form>
+            <h2>Available Rooms</h2>
+            <div class="Rooms">
+
+            </div>
+                <h2>BOOK ROOM</h2>
+            <form>
+                <lable for="Rooms">ROOM</lable>
+                <select id="room"name="room">
+                </select>
+            <lable for="Duration">Duration</lable>
+            <input type="number" id="duration" name="duration" min="1">
+            <input type="submit" value="Search">
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
+
